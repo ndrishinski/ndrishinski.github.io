@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  height: 82px;
+  border-bottom: 1px solid #133783;
+}
+
+img {
+  height: 48px;
+}
+
+.header-block {
+  width: 992px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 60%;
+  float: left;
+}
+
+.facebook-login {
+  width: 40%;
+  float: left;
+}
+
+
+.logo img {
+  padding-top: 7px;
+  padding-bottom: 20px;
+}
+
+.header-block label {
+  color: #FFF;
+}
+
+.email {
+  float: left;
+  margin-right: 15px;
+  margin-top: -7px;
+}
+
+.email label {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.email input[type="text"] {
+  margin-top: 5px;
+  height: 23px;
+  width: 150px;
+  border: 1px solid #1d2a5b;
+}
+
+.password {
+  float: left;
+  margin-top: -7px;
+}
+
+.password a {
+  color: #8fb1d8;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: -1px;
+}
+
+.password label {
+  font-size: 12px;
+}
+
+.password input[type="password"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 23px;
+  width: 150px;
+  border: 1px solid #1d2a5b;
+}
+
+.login-button {
+  float: left;
+  margin-top: 16px;
+  margin-left: 15px;
+}
+
+.login-button input[type="submit"] {
+  background: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 2px;
+  color: #fff;
+  height: 24px;
+  width: 50px;
+  font-size: 12px;
+}
+
+.facebook-connect img {
+  height: 206px;
+}
+
+.facebook-connect h2 {
+  font-size: 36px;
+}
+
+.facebook-connect p {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.content-block {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.facebook-connect {
+  margin-top: 11px;
+  width: 60%;
+  float: left;
+}
+
+.create-account {
+  width: 40%;
+  float: left;
+  margin-top: 11px;
+}
+
+.create-account h2 {
+  font-size: 35px;
+  margin-bottom: 2px;
+}
+
+.create-account p {
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+
+body {
+  background: #e9ebee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.account input {
+  font-size: 18px;
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  margin: 5px;
+  height: 39px;
+}
+
+.shorter {
+  width: 182px;
+}
+
+.longer {
+  width: 380px;
+}
+
+.account input[type="password"] {
+  margin-bottom: 22px;
+}
+
+.birthdayquestion {
+  text-decoration: none;
+  font-size: 12px;
+  color: #365899;
+}
+
+#birthdayquestion {
+  margin-left: 154px;
+  margin-top: -31px;
+}
+
+.form-group select {
+  height: 30px;
+  width: 48px;
+  margin-top: 7px;
+  margin-left: -3px;
+}
+
+.form-group {
+  margin-left: 10px;
+}
+
+.radio-btns {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[value="male"] {
+  margin-left: 10px;
+}
+
+#animate {
+  margin-top: 15px;
+  
+}
+
+.terms-conditions {
+  color: #777;
+  font-size: 12px;
+}
+
+.terms-conditions a {
+  text-decoration: none;
+  color: #365899;
+}
+
+.btn-success {
+  min-width: 194px;
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  text-align: center;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  font-size: 19px;
+  height: 42px;
+}
+
+.border {
+  border-top: 1px solid #dddfe2;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.border a {
+  text-decoration: none;
+  color: #365899;
+}
+
+.account form {
+  margin-left: -9px;
+}
+
+::placeholder {
+    color: #afb6bf;
+}
+
+/*media screen*/
+
+@media only screen and (max-width: 840px) {
+      .logo {
+        display: none;
+    }
+
+    .facebook-login {
+        width: 100%;
+        margin-left: 4px;
+    }
+
+    .facebook-connect {
+        display: none;
+    }
+    .create-account {
+      width: 100%;
+      margin-left: 4px;
+    }
+
+    .border {
+      display: none;
+    }
+}
